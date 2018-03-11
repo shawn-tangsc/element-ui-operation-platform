@@ -1,0 +1,39 @@
+.table-expand {
+  font-size: 0;
+
+  label {
+    width: 90px;
+    color: #99a9bf;
+  }
+  .el-form-item {
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 50%;
+  }
+}
+
+.upload-package-dialog{
+  .el-form-item__label{
+    width: 130px;
+  }
+}
+
+.el-dialog{
+  .el-form-item{
+    display: flex;
+    align-items: flex-start;
+    .el-input,.el-date-picker, textarea{
+      width: 400px;
+    }
+
+    input[type=file]#file-upload{
+      display:none;
+    }
+  }
+}
+
+.dialog-footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
